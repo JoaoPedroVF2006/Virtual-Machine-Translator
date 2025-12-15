@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/VMT.dir/link.d CMakeFiles/VMT.dir/src/Main.c.o CMakeFiles/VMT.dir/src/Utils.c.o -o VMT

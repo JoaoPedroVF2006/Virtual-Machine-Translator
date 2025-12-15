@@ -1,0 +1,3 @@
+/home/joao/Documents/VMTranslator/build/CMakeFiles/VMT.dir
+/home/joao/Documents/VMTranslator/build/CMakeFiles/edit_cache.dir
+/home/joao/Documents/VMTranslator/build/CMakeFiles/rebuild_cache.dir
