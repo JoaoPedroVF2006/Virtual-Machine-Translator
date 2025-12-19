@@ -4,6 +4,7 @@ VMT: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
   CMakeFiles/VMT.dir/src/Main.c.o \
   CMakeFiles/VMT.dir/src/Utils.c.o \
+  CMakeFiles/VMT.dir/src/Lexer.c.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so \
@@ -35,6 +36,8 @@ VMT: \
 CMakeFiles/VMT.dir/src/Main.c.o:
 
 CMakeFiles/VMT.dir/src/Utils.c.o:
+
+CMakeFiles/VMT.dir/src/Lexer.c.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
 

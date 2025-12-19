@@ -36,4 +36,5 @@ CMakeFiles/VMT.dir/src/Main.c.o: \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-float.h /usr/include/string.h \
  /usr/include/strings.h \
- /home/joao/Documents/VMTranslator/src/../include/Utils.h
+ /home/joao/Documents/VMTranslator/src/../include/Utils.h \
+ /home/joao/Documents/VMTranslator/src/../include/Lexer.h

@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/joao/Documents/VMTranslator/build",
+  "command": "/usr/bin/gcc  -I/home/joao/Documents/VMTranslator/include -g -o CMakeFiles/VMT.dir/src/Main.c.o -c /home/joao/Documents/VMTranslator/src/Main.c",
+  "file": "/home/joao/Documents/VMTranslator/src/Main.c",
+  "output": "CMakeFiles/VMT.dir/src/Main.c.o"
+},
+{
+  "directory": "/home/joao/Documents/VMTranslator/build",
+  "command": "/usr/bin/gcc  -I/home/joao/Documents/VMTranslator/include -g -o CMakeFiles/VMT.dir/src/Utils.c.o -c /home/joao/Documents/VMTranslator/src/Utils.c",
+  "file": "/home/joao/Documents/VMTranslator/src/Utils.c",
+  "output": "CMakeFiles/VMT.dir/src/Utils.c.o"
+},
+{
+  "directory": "/home/joao/Documents/VMTranslator/build",
+  "command": "/usr/bin/gcc  -I/home/joao/Documents/VMTranslator/include -g -o CMakeFiles/VMT.dir/src/Lexer.c.o -c /home/joao/Documents/VMTranslator/src/Lexer.c",
+  "file": "/home/joao/Documents/VMTranslator/src/Lexer.c",
+  "output": "CMakeFiles/VMT.dir/src/Lexer.c.o"
+}
+]

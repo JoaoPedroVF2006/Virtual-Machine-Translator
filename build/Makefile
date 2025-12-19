@@ -129,6 +129,30 @@ VMT/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VMT.dir/build.make CMakeFiles/VMT.dir/build
 .PHONY : VMT/fast
 
+src/Lexer.o: src/Lexer.c.o
+.PHONY : src/Lexer.o
+
+# target to build an object file
+src/Lexer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VMT.dir/build.make CMakeFiles/VMT.dir/src/Lexer.c.o
+.PHONY : src/Lexer.c.o
+
+src/Lexer.i: src/Lexer.c.i
+.PHONY : src/Lexer.i
+
+# target to preprocess a source file
+src/Lexer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VMT.dir/build.make CMakeFiles/VMT.dir/src/Lexer.c.i
+.PHONY : src/Lexer.c.i
+
+src/Lexer.s: src/Lexer.c.s
+.PHONY : src/Lexer.s
+
+# target to generate assembly for a file
+src/Lexer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VMT.dir/build.make CMakeFiles/VMT.dir/src/Lexer.c.s
+.PHONY : src/Lexer.c.s
+
 src/Main.o: src/Main.c.o
 .PHONY : src/Main.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... VMT"
+	@echo "... src/Lexer.o"
+	@echo "... src/Lexer.i"
+	@echo "... src/Lexer.s"
 	@echo "... src/Main.o"
 	@echo "... src/Main.i"
 	@echo "... src/Main.s"

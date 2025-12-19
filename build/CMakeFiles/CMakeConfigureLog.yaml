@@ -21,46 +21,31 @@ events:
       - "uname"
     candidate_directories:
       - "/home/joao/.local/bin/"
-      - "/usr/lib/jvm/java-25-openjdk/bin/"
-      - "/home/joao/.local/share/nvim/mason/bin/"
       - "/home/joao/.cargo/bin/"
-      - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
+      - "/usr/local/sbin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/opt/nvim-linux-x86_64/bin/"
       - "/bin/"
     searched_directories:
       - "/home/joao/.local/bin/uname"
-      - "/usr/lib/jvm/java-25-openjdk/bin/uname"
-      - "/home/joao/.local/share/nvim/mason/bin/uname"
       - "/home/joao/.cargo/bin/uname"
-      - "/usr/local/sbin/uname"
       - "/usr/local/bin/uname"
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
         - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/share/nvim/mason/bin"
-        - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/bin"
         - "/home/joao/.cargo/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/usr/local/sbin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
   -
     kind: "message-v1"
     backtrace:
@@ -90,123 +75,39 @@ events:
       - "smake"
     candidate_directories:
       - "/home/joao/.local/bin/"
-      - "/usr/lib/jvm/java-25-openjdk/bin/"
-      - "/home/joao/.local/share/nvim/mason/bin/"
       - "/home/joao/.cargo/bin/"
-      - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
+      - "/usr/local/sbin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/opt/nvim-linux-x86_64/bin/"
     searched_directories:
       - "/home/joao/.local/bin/gmake"
-      - "/usr/lib/jvm/java-25-openjdk/bin/gmake"
-      - "/home/joao/.local/share/nvim/mason/bin/gmake"
       - "/home/joao/.cargo/bin/gmake"
-      - "/usr/local/sbin/gmake"
       - "/usr/local/bin/gmake"
       - "/usr/bin/gmake"
+      - "/usr/local/sbin/gmake"
       - "/usr/lib/jvm/default/bin/gmake"
       - "/usr/bin/site_perl/gmake"
       - "/usr/bin/vendor_perl/gmake"
       - "/usr/bin/core_perl/gmake"
-      - "/opt/nvim-linux-x86_64/bin/gmake"
       - "/home/joao/.local/bin/make"
-      - "/usr/lib/jvm/java-25-openjdk/bin/make"
-      - "/home/joao/.local/share/nvim/mason/bin/make"
       - "/home/joao/.cargo/bin/make"
-      - "/usr/local/sbin/make"
       - "/usr/local/bin/make"
     found: "/usr/bin/make"
     search_context:
       ENV{PATH}:
         - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/share/nvim/mason/bin"
-        - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/bin"
         - "/home/joao/.cargo/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/usr/local/sbin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
-      - "CMakeLists.txt:5 (project)"
-    mode: "program"
-    variable: "CMAKE_C_COMPILER"
-    description: "C compiler"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "cc"
-      - "gcc"
-      - "cl"
-      - "bcc"
-      - "xlc"
-      - "icx"
-      - "clang"
-    candidate_directories:
-      - "/home/joao/.local/bin/"
-      - "/usr/lib/jvm/java-25-openjdk/bin/"
-      - "/home/joao/.local/share/nvim/mason/bin/"
-      - "/home/joao/.cargo/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/usr/lib/jvm/default/bin/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-      - "/opt/nvim-linux-x86_64/bin/"
-    searched_directories:
-      - "/home/joao/.local/bin/cc"
-      - "/usr/lib/jvm/java-25-openjdk/bin/cc"
-      - "/home/joao/.local/share/nvim/mason/bin/cc"
-      - "/home/joao/.cargo/bin/cc"
-      - "/usr/local/sbin/cc"
-      - "/usr/local/bin/cc"
-    found: "/usr/bin/cc"
-    search_context:
-      ENV{PATH}:
-        - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/share/nvim/mason/bin"
-        - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/bin"
-        - "/home/joao/.cargo/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/usr/lib/jvm/default/bin"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -235,23 +136,14 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/share/nvim/mason/bin"
-        - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/bin"
         - "/home/joao/.cargo/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/usr/local/sbin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
   -
     kind: "message-v1"
     backtrace:
@@ -261,7 +153,7 @@ events:
       - "CMakeLists.txt:5 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: /usr/bin/cc 
+      Compiler: /usr/bin/gcc 
       Build flags: 
       Id flags:  
       
@@ -296,37 +188,25 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/joao/.local/bin/"
-      - "/usr/lib/jvm/java-25-openjdk/bin/"
-      - "/home/joao/.local/share/nvim/mason/bin/"
       - "/home/joao/.cargo/bin/"
-      - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/usr/local/sbin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/opt/nvim-linux-x86_64/bin/"
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
         - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/share/nvim/mason/bin"
-        - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/bin"
         - "/home/joao/.cargo/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/usr/local/sbin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -349,37 +229,25 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/joao/.local/bin/"
-      - "/usr/lib/jvm/java-25-openjdk/bin/"
-      - "/home/joao/.local/share/nvim/mason/bin/"
       - "/home/joao/.cargo/bin/"
-      - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/usr/local/sbin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/opt/nvim-linux-x86_64/bin/"
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
         - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/share/nvim/mason/bin"
-        - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/bin"
         - "/home/joao/.cargo/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/usr/local/sbin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -402,37 +270,25 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/joao/.local/bin/"
-      - "/usr/lib/jvm/java-25-openjdk/bin/"
-      - "/home/joao/.local/share/nvim/mason/bin/"
       - "/home/joao/.cargo/bin/"
-      - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/usr/local/sbin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/opt/nvim-linux-x86_64/bin/"
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
         - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/share/nvim/mason/bin"
-        - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/bin"
         - "/home/joao/.cargo/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/usr/local/sbin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -455,37 +311,25 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/joao/.local/bin/"
-      - "/usr/lib/jvm/java-25-openjdk/bin/"
-      - "/home/joao/.local/share/nvim/mason/bin/"
       - "/home/joao/.cargo/bin/"
-      - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/usr/local/sbin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/opt/nvim-linux-x86_64/bin/"
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
         - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/share/nvim/mason/bin"
-        - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/bin"
         - "/home/joao/.cargo/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/usr/local/sbin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -508,37 +352,25 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/joao/.local/bin/"
-      - "/usr/lib/jvm/java-25-openjdk/bin/"
-      - "/home/joao/.local/share/nvim/mason/bin/"
       - "/home/joao/.cargo/bin/"
-      - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/usr/local/sbin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/opt/nvim-linux-x86_64/bin/"
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
         - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/share/nvim/mason/bin"
-        - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/bin"
         - "/home/joao/.cargo/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/usr/local/sbin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -561,37 +393,25 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/joao/.local/bin/"
-      - "/usr/lib/jvm/java-25-openjdk/bin/"
-      - "/home/joao/.local/share/nvim/mason/bin/"
       - "/home/joao/.cargo/bin/"
-      - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/usr/local/sbin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/opt/nvim-linux-x86_64/bin/"
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
         - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/share/nvim/mason/bin"
-        - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/bin"
         - "/home/joao/.cargo/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/usr/local/sbin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -614,37 +434,25 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/joao/.local/bin/"
-      - "/usr/lib/jvm/java-25-openjdk/bin/"
-      - "/home/joao/.local/share/nvim/mason/bin/"
       - "/home/joao/.cargo/bin/"
-      - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/usr/local/sbin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/opt/nvim-linux-x86_64/bin/"
     found: "/usr/bin/objcopy"
     search_context:
       ENV{PATH}:
         - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/share/nvim/mason/bin"
-        - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/bin"
         - "/home/joao/.cargo/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/usr/local/sbin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -667,37 +475,25 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/joao/.local/bin/"
-      - "/usr/lib/jvm/java-25-openjdk/bin/"
-      - "/home/joao/.local/share/nvim/mason/bin/"
       - "/home/joao/.cargo/bin/"
-      - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/usr/local/sbin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/opt/nvim-linux-x86_64/bin/"
     found: "/usr/bin/readelf"
     search_context:
       ENV{PATH}:
         - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/share/nvim/mason/bin"
-        - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/bin"
         - "/home/joao/.cargo/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/usr/local/sbin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -720,50 +516,35 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/joao/.local/bin/"
-      - "/usr/lib/jvm/java-25-openjdk/bin/"
-      - "/home/joao/.local/share/nvim/mason/bin/"
       - "/home/joao/.cargo/bin/"
-      - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/usr/local/sbin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/opt/nvim-linux-x86_64/bin/"
     searched_directories:
       - "/usr/bin/dlltool"
       - "/home/joao/.local/bin/dlltool"
-      - "/usr/lib/jvm/java-25-openjdk/bin/dlltool"
-      - "/home/joao/.local/share/nvim/mason/bin/dlltool"
       - "/home/joao/.cargo/bin/dlltool"
-      - "/usr/local/sbin/dlltool"
       - "/usr/local/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
       - "/usr/lib/jvm/default/bin/dlltool"
       - "/usr/bin/site_perl/dlltool"
       - "/usr/bin/vendor_perl/dlltool"
       - "/usr/bin/core_perl/dlltool"
-      - "/opt/nvim-linux-x86_64/bin/dlltool"
     found: false
     search_context:
       ENV{PATH}:
         - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/share/nvim/mason/bin"
-        - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/bin"
         - "/home/joao/.cargo/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/usr/local/sbin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -786,37 +567,25 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/joao/.local/bin/"
-      - "/usr/lib/jvm/java-25-openjdk/bin/"
-      - "/home/joao/.local/share/nvim/mason/bin/"
       - "/home/joao/.cargo/bin/"
-      - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/usr/local/sbin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/opt/nvim-linux-x86_64/bin/"
     found: "/usr/bin/addr2line"
     search_context:
       ENV{PATH}:
         - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/share/nvim/mason/bin"
-        - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/bin"
         - "/home/joao/.cargo/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/usr/local/sbin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -839,50 +608,35 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/joao/.local/bin/"
-      - "/usr/lib/jvm/java-25-openjdk/bin/"
-      - "/home/joao/.local/share/nvim/mason/bin/"
       - "/home/joao/.cargo/bin/"
-      - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/usr/local/sbin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/opt/nvim-linux-x86_64/bin/"
     searched_directories:
       - "/usr/bin/tapi"
       - "/home/joao/.local/bin/tapi"
-      - "/usr/lib/jvm/java-25-openjdk/bin/tapi"
-      - "/home/joao/.local/share/nvim/mason/bin/tapi"
       - "/home/joao/.cargo/bin/tapi"
-      - "/usr/local/sbin/tapi"
       - "/usr/local/bin/tapi"
+      - "/usr/local/sbin/tapi"
       - "/usr/lib/jvm/default/bin/tapi"
       - "/usr/bin/site_perl/tapi"
       - "/usr/bin/vendor_perl/tapi"
       - "/usr/bin/core_perl/tapi"
-      - "/opt/nvim-linux-x86_64/bin/tapi"
     found: false
     search_context:
       ENV{PATH}:
         - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/share/nvim/mason/bin"
-        - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/bin"
         - "/home/joao/.cargo/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/usr/local/sbin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -908,74 +662,53 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/joao/.local/bin/"
-      - "/usr/lib/jvm/java-25-openjdk/bin/"
-      - "/home/joao/.local/share/nvim/mason/bin/"
       - "/home/joao/.cargo/bin/"
-      - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/usr/local/sbin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/opt/nvim-linux-x86_64/bin/"
     searched_directories:
       - "/usr/bin/gcc-ar-15.2"
       - "/home/joao/.local/bin/gcc-ar-15.2"
-      - "/usr/lib/jvm/java-25-openjdk/bin/gcc-ar-15.2"
-      - "/home/joao/.local/share/nvim/mason/bin/gcc-ar-15.2"
       - "/home/joao/.cargo/bin/gcc-ar-15.2"
-      - "/usr/local/sbin/gcc-ar-15.2"
       - "/usr/local/bin/gcc-ar-15.2"
+      - "/usr/local/sbin/gcc-ar-15.2"
       - "/usr/lib/jvm/default/bin/gcc-ar-15.2"
       - "/usr/bin/site_perl/gcc-ar-15.2"
       - "/usr/bin/vendor_perl/gcc-ar-15.2"
       - "/usr/bin/core_perl/gcc-ar-15.2"
-      - "/opt/nvim-linux-x86_64/bin/gcc-ar-15.2"
       - "/usr/bin/gcc-ar-15"
       - "/home/joao/.local/bin/gcc-ar-15"
-      - "/usr/lib/jvm/java-25-openjdk/bin/gcc-ar-15"
-      - "/home/joao/.local/share/nvim/mason/bin/gcc-ar-15"
       - "/home/joao/.cargo/bin/gcc-ar-15"
-      - "/usr/local/sbin/gcc-ar-15"
       - "/usr/local/bin/gcc-ar-15"
+      - "/usr/local/sbin/gcc-ar-15"
       - "/usr/lib/jvm/default/bin/gcc-ar-15"
       - "/usr/bin/site_perl/gcc-ar-15"
       - "/usr/bin/vendor_perl/gcc-ar-15"
       - "/usr/bin/core_perl/gcc-ar-15"
-      - "/opt/nvim-linux-x86_64/bin/gcc-ar-15"
       - "/usr/bin/gcc-ar15"
       - "/home/joao/.local/bin/gcc-ar15"
-      - "/usr/lib/jvm/java-25-openjdk/bin/gcc-ar15"
-      - "/home/joao/.local/share/nvim/mason/bin/gcc-ar15"
       - "/home/joao/.cargo/bin/gcc-ar15"
-      - "/usr/local/sbin/gcc-ar15"
       - "/usr/local/bin/gcc-ar15"
+      - "/usr/local/sbin/gcc-ar15"
       - "/usr/lib/jvm/default/bin/gcc-ar15"
       - "/usr/bin/site_perl/gcc-ar15"
       - "/usr/bin/vendor_perl/gcc-ar15"
       - "/usr/bin/core_perl/gcc-ar15"
-      - "/opt/nvim-linux-x86_64/bin/gcc-ar15"
     found: "/usr/bin/gcc-ar"
     search_context:
       ENV{PATH}:
         - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/share/nvim/mason/bin"
-        - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/bin"
         - "/home/joao/.cargo/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/usr/local/sbin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1001,125 +734,53 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/joao/.local/bin/"
-      - "/usr/lib/jvm/java-25-openjdk/bin/"
-      - "/home/joao/.local/share/nvim/mason/bin/"
       - "/home/joao/.cargo/bin/"
-      - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/usr/local/sbin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/opt/nvim-linux-x86_64/bin/"
     searched_directories:
       - "/usr/bin/gcc-ranlib-15.2"
       - "/home/joao/.local/bin/gcc-ranlib-15.2"
-      - "/usr/lib/jvm/java-25-openjdk/bin/gcc-ranlib-15.2"
-      - "/home/joao/.local/share/nvim/mason/bin/gcc-ranlib-15.2"
       - "/home/joao/.cargo/bin/gcc-ranlib-15.2"
-      - "/usr/local/sbin/gcc-ranlib-15.2"
       - "/usr/local/bin/gcc-ranlib-15.2"
+      - "/usr/local/sbin/gcc-ranlib-15.2"
       - "/usr/lib/jvm/default/bin/gcc-ranlib-15.2"
       - "/usr/bin/site_perl/gcc-ranlib-15.2"
       - "/usr/bin/vendor_perl/gcc-ranlib-15.2"
       - "/usr/bin/core_perl/gcc-ranlib-15.2"
-      - "/opt/nvim-linux-x86_64/bin/gcc-ranlib-15.2"
       - "/usr/bin/gcc-ranlib-15"
       - "/home/joao/.local/bin/gcc-ranlib-15"
-      - "/usr/lib/jvm/java-25-openjdk/bin/gcc-ranlib-15"
-      - "/home/joao/.local/share/nvim/mason/bin/gcc-ranlib-15"
       - "/home/joao/.cargo/bin/gcc-ranlib-15"
-      - "/usr/local/sbin/gcc-ranlib-15"
       - "/usr/local/bin/gcc-ranlib-15"
+      - "/usr/local/sbin/gcc-ranlib-15"
       - "/usr/lib/jvm/default/bin/gcc-ranlib-15"
       - "/usr/bin/site_perl/gcc-ranlib-15"
       - "/usr/bin/vendor_perl/gcc-ranlib-15"
       - "/usr/bin/core_perl/gcc-ranlib-15"
-      - "/opt/nvim-linux-x86_64/bin/gcc-ranlib-15"
       - "/usr/bin/gcc-ranlib15"
       - "/home/joao/.local/bin/gcc-ranlib15"
-      - "/usr/lib/jvm/java-25-openjdk/bin/gcc-ranlib15"
-      - "/home/joao/.local/share/nvim/mason/bin/gcc-ranlib15"
       - "/home/joao/.cargo/bin/gcc-ranlib15"
-      - "/usr/local/sbin/gcc-ranlib15"
       - "/usr/local/bin/gcc-ranlib15"
+      - "/usr/local/sbin/gcc-ranlib15"
       - "/usr/lib/jvm/default/bin/gcc-ranlib15"
       - "/usr/bin/site_perl/gcc-ranlib15"
       - "/usr/bin/vendor_perl/gcc-ranlib15"
       - "/usr/bin/core_perl/gcc-ranlib15"
-      - "/opt/nvim-linux-x86_64/bin/gcc-ranlib15"
     found: "/usr/bin/gcc-ranlib"
     search_context:
       ENV{PATH}:
         - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/share/nvim/mason/bin"
-        - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/bin"
         - "/home/joao/.cargo/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/usr/local/sbin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
-      - "CMakeLists.txt:5 (project)"
-    mode: "program"
-    variable: "CMAKE_CXX_COMPILER"
-    description: "CXX compiler"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "c++"
-      - "CC"
-      - "g++"
-      - "aCC"
-      - "cl"
-      - "bcc"
-      - "xlC"
-      - "icpx"
-      - "icx"
-      - "clang++"
-    candidate_directories:
-      - "/usr/bin/"
-    found: "/usr/bin/c++"
-    search_context:
-      ENV{PATH}:
-        - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/share/nvim/mason/bin"
-        - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/bin"
-        - "/home/joao/.cargo/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/usr/lib/jvm/default/bin"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1148,23 +809,14 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/share/nvim/mason/bin"
-        - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/bin"
         - "/home/joao/.cargo/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/usr/local/sbin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
   -
     kind: "message-v1"
     backtrace:
@@ -1174,7 +826,7 @@ events:
       - "CMakeLists.txt:5 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /usr/bin/c++ 
+      Compiler: /usr/bin/g++ 
       Build flags: 
       Id flags:  
       
@@ -1212,74 +864,53 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/joao/.local/bin/"
-      - "/usr/lib/jvm/java-25-openjdk/bin/"
-      - "/home/joao/.local/share/nvim/mason/bin/"
       - "/home/joao/.cargo/bin/"
-      - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/usr/local/sbin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/opt/nvim-linux-x86_64/bin/"
     searched_directories:
       - "/usr/bin/gcc-ar-15.2"
       - "/home/joao/.local/bin/gcc-ar-15.2"
-      - "/usr/lib/jvm/java-25-openjdk/bin/gcc-ar-15.2"
-      - "/home/joao/.local/share/nvim/mason/bin/gcc-ar-15.2"
       - "/home/joao/.cargo/bin/gcc-ar-15.2"
-      - "/usr/local/sbin/gcc-ar-15.2"
       - "/usr/local/bin/gcc-ar-15.2"
+      - "/usr/local/sbin/gcc-ar-15.2"
       - "/usr/lib/jvm/default/bin/gcc-ar-15.2"
       - "/usr/bin/site_perl/gcc-ar-15.2"
       - "/usr/bin/vendor_perl/gcc-ar-15.2"
       - "/usr/bin/core_perl/gcc-ar-15.2"
-      - "/opt/nvim-linux-x86_64/bin/gcc-ar-15.2"
       - "/usr/bin/gcc-ar-15"
       - "/home/joao/.local/bin/gcc-ar-15"
-      - "/usr/lib/jvm/java-25-openjdk/bin/gcc-ar-15"
-      - "/home/joao/.local/share/nvim/mason/bin/gcc-ar-15"
       - "/home/joao/.cargo/bin/gcc-ar-15"
-      - "/usr/local/sbin/gcc-ar-15"
       - "/usr/local/bin/gcc-ar-15"
+      - "/usr/local/sbin/gcc-ar-15"
       - "/usr/lib/jvm/default/bin/gcc-ar-15"
       - "/usr/bin/site_perl/gcc-ar-15"
       - "/usr/bin/vendor_perl/gcc-ar-15"
       - "/usr/bin/core_perl/gcc-ar-15"
-      - "/opt/nvim-linux-x86_64/bin/gcc-ar-15"
       - "/usr/bin/gcc-ar15"
       - "/home/joao/.local/bin/gcc-ar15"
-      - "/usr/lib/jvm/java-25-openjdk/bin/gcc-ar15"
-      - "/home/joao/.local/share/nvim/mason/bin/gcc-ar15"
       - "/home/joao/.cargo/bin/gcc-ar15"
-      - "/usr/local/sbin/gcc-ar15"
       - "/usr/local/bin/gcc-ar15"
+      - "/usr/local/sbin/gcc-ar15"
       - "/usr/lib/jvm/default/bin/gcc-ar15"
       - "/usr/bin/site_perl/gcc-ar15"
       - "/usr/bin/vendor_perl/gcc-ar15"
       - "/usr/bin/core_perl/gcc-ar15"
-      - "/opt/nvim-linux-x86_64/bin/gcc-ar15"
     found: "/usr/bin/gcc-ar"
     search_context:
       ENV{PATH}:
         - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/share/nvim/mason/bin"
-        - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/bin"
         - "/home/joao/.cargo/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/usr/local/sbin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1305,74 +936,53 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/home/joao/.local/bin/"
-      - "/usr/lib/jvm/java-25-openjdk/bin/"
-      - "/home/joao/.local/share/nvim/mason/bin/"
       - "/home/joao/.cargo/bin/"
-      - "/usr/local/sbin/"
       - "/usr/local/bin/"
+      - "/usr/local/sbin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
-      - "/opt/nvim-linux-x86_64/bin/"
     searched_directories:
       - "/usr/bin/gcc-ranlib-15.2"
       - "/home/joao/.local/bin/gcc-ranlib-15.2"
-      - "/usr/lib/jvm/java-25-openjdk/bin/gcc-ranlib-15.2"
-      - "/home/joao/.local/share/nvim/mason/bin/gcc-ranlib-15.2"
       - "/home/joao/.cargo/bin/gcc-ranlib-15.2"
-      - "/usr/local/sbin/gcc-ranlib-15.2"
       - "/usr/local/bin/gcc-ranlib-15.2"
+      - "/usr/local/sbin/gcc-ranlib-15.2"
       - "/usr/lib/jvm/default/bin/gcc-ranlib-15.2"
       - "/usr/bin/site_perl/gcc-ranlib-15.2"
       - "/usr/bin/vendor_perl/gcc-ranlib-15.2"
       - "/usr/bin/core_perl/gcc-ranlib-15.2"
-      - "/opt/nvim-linux-x86_64/bin/gcc-ranlib-15.2"
       - "/usr/bin/gcc-ranlib-15"
       - "/home/joao/.local/bin/gcc-ranlib-15"
-      - "/usr/lib/jvm/java-25-openjdk/bin/gcc-ranlib-15"
-      - "/home/joao/.local/share/nvim/mason/bin/gcc-ranlib-15"
       - "/home/joao/.cargo/bin/gcc-ranlib-15"
-      - "/usr/local/sbin/gcc-ranlib-15"
       - "/usr/local/bin/gcc-ranlib-15"
+      - "/usr/local/sbin/gcc-ranlib-15"
       - "/usr/lib/jvm/default/bin/gcc-ranlib-15"
       - "/usr/bin/site_perl/gcc-ranlib-15"
       - "/usr/bin/vendor_perl/gcc-ranlib-15"
       - "/usr/bin/core_perl/gcc-ranlib-15"
-      - "/opt/nvim-linux-x86_64/bin/gcc-ranlib-15"
       - "/usr/bin/gcc-ranlib15"
       - "/home/joao/.local/bin/gcc-ranlib15"
-      - "/usr/lib/jvm/java-25-openjdk/bin/gcc-ranlib15"
-      - "/home/joao/.local/share/nvim/mason/bin/gcc-ranlib15"
       - "/home/joao/.cargo/bin/gcc-ranlib15"
-      - "/usr/local/sbin/gcc-ranlib15"
       - "/usr/local/bin/gcc-ranlib15"
+      - "/usr/local/sbin/gcc-ranlib15"
       - "/usr/lib/jvm/default/bin/gcc-ranlib15"
       - "/usr/bin/site_perl/gcc-ranlib15"
       - "/usr/bin/vendor_perl/gcc-ranlib15"
       - "/usr/bin/core_perl/gcc-ranlib15"
-      - "/opt/nvim-linux-x86_64/bin/gcc-ranlib15"
     found: "/usr/bin/gcc-ranlib"
     search_context:
       ENV{PATH}:
         - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/share/nvim/mason/bin"
-        - "/home/joao/.local/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/home/joao/.local/bin"
         - "/home/joao/.cargo/bin"
-        - "/usr/lib/jvm/java-25-openjdk/bin"
-        - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/usr/local/sbin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
-        - "/opt/nvim-linux-x86_64/bin"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -1382,8 +992,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-7Zoy6W"
-      binary: "/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-7Zoy6W"
+      source: "/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-f7mLhv"
+      binary: "/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-f7mLhv"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1392,22 +1002,22 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-7Zoy6W'
+        Change Dir: '/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-f7mLhv'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f0dfe/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_f0dfe.dir/build.make CMakeFiles/cmTC_f0dfe.dir/build
-        make[1]: Entering directory '/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-7Zoy6W'
-        Building C object CMakeFiles/cmTC_f0dfe.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_f0dfe.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5734e/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_5734e.dir/build.make CMakeFiles/cmTC_5734e.dir/build
+        make[1]: Entering directory '/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-f7mLhv'
+        Building C object CMakeFiles/cmTC_5734e.dir/CMakeCCompilerABI.c.o
+        /usr/bin/gcc   -v -o CMakeFiles/cmTC_5734e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
-        COLLECT_GCC=/usr/bin/cc
+        COLLECT_GCC=/usr/bin/gcc
         Target: x86_64-pc-linux-gnu
         Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.1 20251112 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f0dfe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f0dfe.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_f0dfe.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccQSVnCf.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5734e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5734e.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5734e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccy9fHxz.s
         GNU C23 (GCC) version 15.2.1 20251112 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 15.2.1 20251112, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1421,16 +1031,16 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: e7e806b0d021308da32115a1780fef1e
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f0dfe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f0dfe.dir/'
-         as -v --64 -o CMakeFiles/cmTC_f0dfe.dir/CMakeCCompilerABI.c.o /tmp/ccQSVnCf.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5734e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5734e.dir/'
+         as -v --64 -o CMakeFiles/cmTC_5734e.dir/CMakeCCompilerABI.c.o /tmp/ccy9fHxz.s
         GNU assembler version 2.45.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.45.1
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f0dfe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f0dfe.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_f0dfe
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0dfe.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5734e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5734e.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_5734e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5734e.dir/link.txt --verbose=1
         Using built-in specs.
-        COLLECT_GCC=/usr/bin/cc
+        COLLECT_GCC=/usr/bin/gcc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper
         Target: x86_64-pc-linux-gnu
         Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
@@ -1439,14 +1049,14 @@ events:
         gcc version 15.2.1 20251112 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f0dfe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f0dfe.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccN9R9Od.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f0dfe /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_f0dfe.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5734e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5734e.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1Apfcb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5734e /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_5734e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         collect2 version 15.2.1 20251112
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccN9R9Od.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f0dfe /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_f0dfe.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1Apfcb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5734e /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_5734e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.45.1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f0dfe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f0dfe.'
-        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_f0dfe.dir/CMakeCCompilerABI.c.o -o cmTC_f0dfe
-        make[1]: Leaving directory '/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-7Zoy6W'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5734e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5734e.'
+        /usr/bin/gcc  -v -Wl,-v CMakeFiles/cmTC_5734e.dir/CMakeCCompilerABI.c.o -o cmTC_5734e
+        make[1]: Leaving directory '/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-f7mLhv'
         
       exitCode: 0
   -
@@ -1481,22 +1091,22 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-7Zoy6W']
+        ignore line: [Change Dir: '/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-f7mLhv']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f0dfe/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_f0dfe.dir/build.make CMakeFiles/cmTC_f0dfe.dir/build]
-        ignore line: [make[1]: Entering directory '/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-7Zoy6W']
-        ignore line: [Building C object CMakeFiles/cmTC_f0dfe.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_f0dfe.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5734e/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_5734e.dir/build.make CMakeFiles/cmTC_5734e.dir/build]
+        ignore line: [make[1]: Entering directory '/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-f7mLhv']
+        ignore line: [Building C object CMakeFiles/cmTC_5734e.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/gcc   -v -o CMakeFiles/cmTC_5734e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_GCC=/usr/bin/gcc]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.1 20251112 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f0dfe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f0dfe.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_f0dfe.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccQSVnCf.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5734e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5734e.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5734e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccy9fHxz.s]
         ignore line: [GNU C23 (GCC) version 15.2.1 20251112 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.1 20251112  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1510,16 +1120,16 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: e7e806b0d021308da32115a1780fef1e]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f0dfe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f0dfe.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_f0dfe.dir/CMakeCCompilerABI.c.o /tmp/ccQSVnCf.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5734e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5734e.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_5734e.dir/CMakeCCompilerABI.c.o /tmp/ccy9fHxz.s]
         ignore line: [GNU assembler version 2.45.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.45.1]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f0dfe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f0dfe.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_f0dfe]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0dfe.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5734e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5734e.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_5734e]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5734e.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_GCC=/usr/bin/gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
@@ -1528,13 +1138,13 @@ events:
         ignore line: [gcc version 15.2.1 20251112 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f0dfe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f0dfe.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccN9R9Od.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f0dfe /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_f0dfe.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5734e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5734e.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1Apfcb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5734e /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_5734e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccN9R9Od.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc1Apfcb.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1549,7 +1159,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_f0dfe] ==> ignore
+          arg [cmTC_5734e] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o]
@@ -1561,7 +1171,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_f0dfe.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_5734e.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -1576,7 +1186,7 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
         ignore line: [collect2 version 15.2.1 20251112]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccN9R9Od.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f0dfe /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_f0dfe.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1Apfcb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5734e /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_5734e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
         linker tool for 'C': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
@@ -1613,8 +1223,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-NYn8Qc"
-      binary: "/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-NYn8Qc"
+      source: "/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-rPi2TH"
+      binary: "/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-rPi2TH"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1624,22 +1234,22 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-NYn8Qc'
+        Change Dir: '/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-rPi2TH'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9be44/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_9be44.dir/build.make CMakeFiles/cmTC_9be44.dir/build
-        make[1]: Entering directory '/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-NYn8Qc'
-        Building CXX object CMakeFiles/cmTC_9be44.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_9be44.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ff55d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ff55d.dir/build.make CMakeFiles/cmTC_ff55d.dir/build
+        make[1]: Entering directory '/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-rPi2TH'
+        Building CXX object CMakeFiles/cmTC_ff55d.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/g++   -v -o CMakeFiles/cmTC_ff55d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
-        COLLECT_GCC=/usr/bin/c++
+        COLLECT_GCC=/usr/bin/g++
         Target: x86_64-pc-linux-gnu
         Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.1 20251112 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9be44.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9be44.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9be44.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cckQAokm.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ff55d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ff55d.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ff55d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cce8fCSn.s
         GNU C++17 (GCC) version 15.2.1 20251112 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 15.2.1 20251112, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1656,16 +1266,16 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 4f062beaae229dc32234f13ba259a70e
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9be44.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9be44.dir/'
-         as -v --64 -o CMakeFiles/cmTC_9be44.dir/CMakeCXXCompilerABI.cpp.o /tmp/cckQAokm.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ff55d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ff55d.dir/'
+         as -v --64 -o CMakeFiles/cmTC_ff55d.dir/CMakeCXXCompilerABI.cpp.o /tmp/cce8fCSn.s
         GNU assembler version 2.45.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.45.1
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9be44.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9be44.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_9be44
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9be44.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ff55d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ff55d.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_ff55d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff55d.dir/link.txt --verbose=1
         Using built-in specs.
-        COLLECT_GCC=/usr/bin/c++
+        COLLECT_GCC=/usr/bin/g++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper
         Target: x86_64-pc-linux-gnu
         Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
@@ -1674,14 +1284,14 @@ events:
         gcc version 15.2.1 20251112 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9be44' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9be44.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUln34R.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9be44 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9be44.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ff55d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ff55d.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJ8AWq0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ff55d /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ff55d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         collect2 version 15.2.1 20251112
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUln34R.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9be44 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9be44.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJ8AWq0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ff55d /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ff55d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.45.1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9be44' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9be44.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_9be44.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9be44
-        make[1]: Leaving directory '/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-NYn8Qc'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ff55d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ff55d.'
+        /usr/bin/g++  -v -Wl,-v CMakeFiles/cmTC_ff55d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ff55d
+        make[1]: Leaving directory '/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-rPi2TH'
         
       exitCode: 0
   -
@@ -1722,22 +1332,22 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-NYn8Qc']
+        ignore line: [Change Dir: '/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-rPi2TH']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9be44/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_9be44.dir/build.make CMakeFiles/cmTC_9be44.dir/build]
-        ignore line: [make[1]: Entering directory '/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-NYn8Qc']
-        ignore line: [Building CXX object CMakeFiles/cmTC_9be44.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_9be44.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ff55d/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_ff55d.dir/build.make CMakeFiles/cmTC_ff55d.dir/build]
+        ignore line: [make[1]: Entering directory '/home/joao/Documents/VMTranslator/build/CMakeFiles/CMakeScratch/TryCompile-rPi2TH']
+        ignore line: [Building CXX object CMakeFiles/cmTC_ff55d.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/g++   -v -o CMakeFiles/cmTC_ff55d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_GCC=/usr/bin/g++]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.1 20251112 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9be44.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9be44.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9be44.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cckQAokm.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ff55d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ff55d.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ff55d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cce8fCSn.s]
         ignore line: [GNU C++17 (GCC) version 15.2.1 20251112 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.1 20251112  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1754,16 +1364,16 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 4f062beaae229dc32234f13ba259a70e]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9be44.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9be44.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_9be44.dir/CMakeCXXCompilerABI.cpp.o /tmp/cckQAokm.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ff55d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ff55d.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_ff55d.dir/CMakeCXXCompilerABI.cpp.o /tmp/cce8fCSn.s]
         ignore line: [GNU assembler version 2.45.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.45.1]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9be44.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9be44.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_9be44]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9be44.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ff55d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ff55d.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_ff55d]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff55d.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_GCC=/usr/bin/g++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
@@ -1772,13 +1382,13 @@ events:
         ignore line: [gcc version 15.2.1 20251112 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9be44' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9be44.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUln34R.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9be44 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9be44.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ff55d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ff55d.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJ8AWq0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ff55d /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ff55d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccUln34R.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccJ8AWq0.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1793,7 +1403,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_9be44] ==> ignore
+          arg [cmTC_ff55d] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o]
@@ -1805,7 +1415,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_9be44.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_ff55d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1816,7 +1426,7 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
         ignore line: [collect2 version 15.2.1 20251112]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUln34R.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9be44 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9be44.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJ8AWq0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ff55d /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ff55d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]

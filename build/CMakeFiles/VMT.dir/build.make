@@ -76,44 +76,60 @@ CMakeFiles/VMT.dir/src/Main.c.o: CMakeFiles/VMT.dir/flags.make
 CMakeFiles/VMT.dir/src/Main.c.o: /home/joao/Documents/VMTranslator/src/Main.c
 CMakeFiles/VMT.dir/src/Main.c.o: CMakeFiles/VMT.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joao/Documents/VMTranslator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/VMT.dir/src/Main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/VMT.dir/src/Main.c.o -MF CMakeFiles/VMT.dir/src/Main.c.o.d -o CMakeFiles/VMT.dir/src/Main.c.o -c /home/joao/Documents/VMTranslator/src/Main.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/VMT.dir/src/Main.c.o -MF CMakeFiles/VMT.dir/src/Main.c.o.d -o CMakeFiles/VMT.dir/src/Main.c.o -c /home/joao/Documents/VMTranslator/src/Main.c
 
 CMakeFiles/VMT.dir/src/Main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/VMT.dir/src/Main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/joao/Documents/VMTranslator/src/Main.c > CMakeFiles/VMT.dir/src/Main.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/joao/Documents/VMTranslator/src/Main.c > CMakeFiles/VMT.dir/src/Main.c.i
 
 CMakeFiles/VMT.dir/src/Main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/VMT.dir/src/Main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/joao/Documents/VMTranslator/src/Main.c -o CMakeFiles/VMT.dir/src/Main.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/joao/Documents/VMTranslator/src/Main.c -o CMakeFiles/VMT.dir/src/Main.c.s
 
 CMakeFiles/VMT.dir/src/Utils.c.o: CMakeFiles/VMT.dir/flags.make
 CMakeFiles/VMT.dir/src/Utils.c.o: /home/joao/Documents/VMTranslator/src/Utils.c
 CMakeFiles/VMT.dir/src/Utils.c.o: CMakeFiles/VMT.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joao/Documents/VMTranslator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/VMT.dir/src/Utils.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/VMT.dir/src/Utils.c.o -MF CMakeFiles/VMT.dir/src/Utils.c.o.d -o CMakeFiles/VMT.dir/src/Utils.c.o -c /home/joao/Documents/VMTranslator/src/Utils.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/VMT.dir/src/Utils.c.o -MF CMakeFiles/VMT.dir/src/Utils.c.o.d -o CMakeFiles/VMT.dir/src/Utils.c.o -c /home/joao/Documents/VMTranslator/src/Utils.c
 
 CMakeFiles/VMT.dir/src/Utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/VMT.dir/src/Utils.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/joao/Documents/VMTranslator/src/Utils.c > CMakeFiles/VMT.dir/src/Utils.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/joao/Documents/VMTranslator/src/Utils.c > CMakeFiles/VMT.dir/src/Utils.c.i
 
 CMakeFiles/VMT.dir/src/Utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/VMT.dir/src/Utils.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/joao/Documents/VMTranslator/src/Utils.c -o CMakeFiles/VMT.dir/src/Utils.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/joao/Documents/VMTranslator/src/Utils.c -o CMakeFiles/VMT.dir/src/Utils.c.s
+
+CMakeFiles/VMT.dir/src/Lexer.c.o: CMakeFiles/VMT.dir/flags.make
+CMakeFiles/VMT.dir/src/Lexer.c.o: /home/joao/Documents/VMTranslator/src/Lexer.c
+CMakeFiles/VMT.dir/src/Lexer.c.o: CMakeFiles/VMT.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joao/Documents/VMTranslator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/VMT.dir/src/Lexer.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/VMT.dir/src/Lexer.c.o -MF CMakeFiles/VMT.dir/src/Lexer.c.o.d -o CMakeFiles/VMT.dir/src/Lexer.c.o -c /home/joao/Documents/VMTranslator/src/Lexer.c
+
+CMakeFiles/VMT.dir/src/Lexer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/VMT.dir/src/Lexer.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/joao/Documents/VMTranslator/src/Lexer.c > CMakeFiles/VMT.dir/src/Lexer.c.i
+
+CMakeFiles/VMT.dir/src/Lexer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/VMT.dir/src/Lexer.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/joao/Documents/VMTranslator/src/Lexer.c -o CMakeFiles/VMT.dir/src/Lexer.c.s
 
 # Object files for target VMT
 VMT_OBJECTS = \
 "CMakeFiles/VMT.dir/src/Main.c.o" \
-"CMakeFiles/VMT.dir/src/Utils.c.o"
+"CMakeFiles/VMT.dir/src/Utils.c.o" \
+"CMakeFiles/VMT.dir/src/Lexer.c.o"
 
 # External object files for target VMT
 VMT_EXTERNAL_OBJECTS =
 
 VMT: CMakeFiles/VMT.dir/src/Main.c.o
 VMT: CMakeFiles/VMT.dir/src/Utils.c.o
+VMT: CMakeFiles/VMT.dir/src/Lexer.c.o
 VMT: CMakeFiles/VMT.dir/build.make
 VMT: CMakeFiles/VMT.dir/compiler_depend.ts
 VMT: CMakeFiles/VMT.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/joao/Documents/VMTranslator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable VMT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/joao/Documents/VMTranslator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable VMT"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/VMT.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

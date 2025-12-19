@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <string.h>
+
 #include "../include/Utils.h"
 
-int stringCopy(char *destination, const char *source, int initialIndex, int length) {
+int stringCopy(char *destination, const char *source, size_t initialIndex, size_t length) {
     
     int statusCode = STATUS_COPY_SUCCESS;
 
