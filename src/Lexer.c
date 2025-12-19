@@ -26,18 +26,18 @@ TOKEN instructionsTokens[INSTRUCTIONS] =
 TOKEN memorySegments[MEMORY_SEGMENTS] = 
     {
 
-        {"argument", C_PUSH}, 
-        {"local", C_POP},
-        {"static", C_ARITHMETIC},
-        {"constant", C_ARITHMETIC},
-        {"this", C_ARITHMETIC},
-        {"that", C_ARITHMETIC},
-        {"pointer", C_ARITHMETIC},
-        {"temp", C_ARITHMETIC},
+        {"argument", M_SEGMENT}, 
+        {"local", M_SEGMENT},
+        {"static", M_SEGMENT},
+        {"constant", M_SEGMENT},
+        {"this", M_SEGMENT},
+        {"that", M_SEGMENT},
+        {"pointer", M_SEGMENT},
+        {"temp", M_SEGMENT},
 
     };
 
-int tokenizeLine(TOKEN tokens[], size_t tokensSize, char *line) {
+int tokenizeLine(TOKEN *tokens, size_t tokensSize, char *line) {
 
     // RESET THE TOKENS LIST
     memset(tokens, 0, tokensSize);
@@ -82,27 +82,41 @@ int tokenizeLine(TOKEN tokens[], size_t tokensSize, char *line) {
     return (tokensIndex <= 0) ? EMPTY_LINE : PARSING_SUCCESS;
 }
 
-int lexingTokens(TOKEN tokens[]) {
+int lexingTokens(TOKEN *tokens) {
 
-    TOKEN opToken = tokens[0];
-    TOKEN argToken = tokens[1];
-    TOKEN secArgToken = tokens[2];
+    TOKEN *opToken = &tokens[0];
+    TOKEN *argToken = &tokens[1];
+    TOKEN *secArgToken = &tokens[2];
 
-    opToken.tokenType = tokenMatches(instructionsTokens, INSTRUCTIONS, opToken.tokenText);
-    argToken.tokenType = tokenMatches(instructionsTokens, INSTRUCTIONS, opToken.tokenText);
-    secArgToken.tokenType = tokenMatches(instructionsTokens, INSTRUCTIONS, opToken.tokenText);
+    opToken->tokenType = tokenMatches(instructionsTokens, INSTRUCTIONS, opToken->tokenText);
+    
+    if (opToken->tokenType == NOT_TOKEN) return TOKEN_PROCESSING_ERROR;
+    
+    if (opToken->tokenType == C_ARITHMETIC) return LEXING_SUCCESS;
+    else if (opToken->tokenType == C_PUSH || opToken->tokenType == C_POP) {
+        argToken->tokenType = tokenMatches(memorySegments, MEMORY_SEGMENTS, argToken->tokenText);
+        
+        if (secArgToken->tokenText[0] == '\0')
+            return BAD_USAGE;
+
+        if (isdigit(secArgToken->tokenText[0])) 
+            secArgToken->tokenType = C_LITERAL;
+        else 
+            return BAD_USAGE;
+        
+    }
 
     return LEXING_SUCCESS;
 }
 
-int tokenMatches(TOKEN *tokensList, size_t listSize, char *string) {
+TOKEN_TYPE tokenMatches(TOKEN *tokensList, size_t listSize, char *string) {
 
     if (tokensList == NULL || listSize <= 0 || string == NULL || string[0] == '\0')
         return STRING_MATCHES_FAILURE;
 
     for (int i = 0; i < listSize; i++) {
 
-        if (!strncmp(tokensList[i].tokenText, string, TOKEN_MAX_LENGTH))
+        if (!strcmp(tokensList[i].tokenText, string))
             return tokensList[i].tokenType;
 
     }

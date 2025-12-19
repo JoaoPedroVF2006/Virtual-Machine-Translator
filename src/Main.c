@@ -51,10 +51,12 @@ int main(int argsc, char *argsv[]) {
     int lineCount = 0;
     while (fgets(actualLine, LINE_MAX_LENGTH, byteCodeFile) != NULL) {
     
-      if (tokenizeLine(tokens, sizeof(tokens), actualLine) == EMPTY_LINE)
+      if (tokenizeLine(tokens, sizeof(TOKEN) * TOKENS_MAX, actualLine) == EMPTY_LINE)
         continue;
 
       lexingTokens(tokens);
+
+      printf("%s - %s - %s\n", tokens[0].tokenText, tokens[1].tokenText, tokens[2].tokenText);
 
       lineCount++;
     }
